@@ -15,9 +15,6 @@ export function SiteHeader() {
   return (
     <header className={`header${scrolled ? " header--scrolled" : ""}`}>
       <nav className="nav">
-        <Link className="nav__logo" href="/" aria-label={meta.siteName}>
-          <img alt={meta.siteName} src={meta.logo} />
-        </Link>
         <div className="nav__links">
           {nav.items.map((item) => (
             <a className="nav__link" key={item.href} href={item.href}>

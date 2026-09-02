@@ -7,7 +7,7 @@ export const meta = {
   siteName: "Luna Pocket",
   title: "Luna Pocket — 妄想を、現実にハックする。",
   description:
-    "Luna Pocket — アイデアをアプリとして世に出すスタジオと、街のお店のデジタル化を支えるローカルDX。あなたの「あったらいいな」を、ポケットの中に。",
+    "Luna Pocket — アイデアをアプリとして世に出すスタジオと、街のお店のデジタル化を支えるローカルDX。あなたの「あったらいいな」を、ポケット[...]",
   ogImage: "/og-image.png",
   logo: "/images/logo-light.png",
 };
@@ -16,6 +16,8 @@ export const meta = {
 export const links = {
   appIdeaForm: "https://forms.gle/EPvQhWa1grKgXtYz6",
   localDxForm: "https://forms.gle/tkWkd66YSAQLbzPBA",
+  twitter: "https://x.com/lunapocketjp",
+  instagram: "https://www.instagram.com/luna_pocket0428/",
 };
 
 export const nav = {
@@ -33,7 +35,7 @@ export const nav = {
 export const hero = {
   titleLines: ["あ、{{accent:ったら}}いいな", "を、{{accent:形}}に。"],
   lead: "「あったらいいな」を、ポケットの中に。",
-  sub: "アイデアをアプリとして世に出すスタジオと、街のお店のデジタル化を支えるローカルDX——二つの事業で、あなたの「こんな感じ」を現実にします。",
+  sub: "アイデアをアプリとして世に出すスタジオと、街のお店のデジタル化を支えるローカルDX——二つの事業で、あなたの「こんな感じ」を現実[...]",
   cta: { label: "妄想を形にする", href: "/#summon" },
 };
 
@@ -50,7 +52,7 @@ export const philosophy = {
     },
   ],
   quote:
-    "誰かが「実現できるわけがない」と笑う妄想に対し、\n私たちはアプリ開発とローカルDX——{{accent:二つの事業}}で、\n四次元ポケットから道具を取り出し、{{accent:不可能を現実に}}します。",
+    "誰かが「実現できるわけがない」と笑う妄想に対し、\n私たちはアプリ開発とローカルDX——{{accent:二つの事業}}で、\n四次元ポケットから道具[...]",
   stats: [
     { value: "99.9%", label: "不可能を現実に変換する確率" },
     { value: "2", label: "事業—STUDIO / LOCAL" },
@@ -67,7 +69,7 @@ export const business = {
       label: "APP STUDIO",
       title: "アイデアを、アプリに",
       lead: "あなたの「あったらいいな」を、ポケットの中に。",
-      body: "一般ユーザーや依頼者から「こんなアプリが欲しい」というアイデアを公募・受領。開発費は請求せず、Luna Pocketが開発・ストア公開を実施します。",
+      body: "一般ユーザーや依頼者から「こんなアプリが欲しい」というアイデアを公募・受領。開発費は請求せず、Luna Pocketが開発・ストア公開を[...]",
       bullets: [
         "アイデア公募・受領",
         "開発費ゼロで開発",
@@ -79,7 +81,7 @@ export const business = {
       label: "LOCAL DX",
       title: "街のお店を、デジタルに",
       lead: "街のお店のITサポーター。難しいことは、まるごと任せてください。",
-      body: "ネットショップの開設からキャッシュレス決済の導入、Googleマップ・SNSでの集客支援まで。「詳しい人が身近にいない」を埋める、地域のデジタル支援。",
+      body: "ネットショップの開設からキャッシュレス決済の導入、Googleマップ・SNSでの集客支援まで。「詳しい人が身近にいない」を埋める、地域[...]",
       bullets: [
         "EC・ネットショップ開設",
         "キャッシュレス決済導入",
@@ -130,13 +132,13 @@ export const summon = {
   eyebrow: { num: "04", label: "— 召喚" },
   heading:
     "あなたの{{mauve:「こんな感じ」}}を、\nそのまま{{accent:お任せ}}ください。",
-  lead: "アイデアをアプリにしたい方にも、街のお店をデジタルにしたい方にも。ざっくりしたイメージだけで結構です。相談内容をもとに、こちらからご連絡いたします。",
+  lead: "アイデアをアプリにしたい方にも、街のお店をデジタルにしたい方にも。ざっくりしたイメージだけで結構です。相談内容をもとに、こち[...]",
   note: "※ お問い合わせフォームは外部サービス（Google Forms）を利用しています",
   pillars: [
     {
       label: "PILLAR 01 — APP STUDIO",
       title: "アプリ開発スタジオ",
-      desc: "あなたの「あったらいいな」を、ポケットの中に。開発費ゼロで、Luna Pocketが開発からストア公開までを実施します。※ 開発には審査ございます",
+      desc: "あなたの「あったらいいな」を、ポケットの中に。開発費ゼロで、Luna Pocketが開発からストア公開までを実施します。※ 開発には審査[...]",
       cards: [
         {
           label: "IDEA",
@@ -221,5 +223,9 @@ export const footer = {
     { label: "プライバシーポリシー", href: "/privacy" },
     { label: "特定商取引法に基づく表記", href: "/legal-notice" },
     { label: "事業者情報", href: "/legal" },
+  ],
+  socialLinks: [
+    { label: "X", href: links.twitter, icon: "x" },
+    { label: "Instagram", href: links.instagram, icon: "instagram" },
   ],
 };

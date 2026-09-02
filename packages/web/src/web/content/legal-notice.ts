@@ -1,4 +1,6 @@
-export const legalNotice = {
+import type { LegalPage } from "./types";
+
+export const legalNotice: LegalPage = {
   eyebrow: "LEGAL NOTICE",
   title: "特定商取引法に基づく表記",
   updatedAt: "最終更新： 2026年9月2日",

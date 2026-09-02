@@ -1,0 +1,10 @@
+/* ------------------------------------------------------------------
+   Luna Pocket — スタイルの入口
+   1. tokens.css : 色・フォント・余白の変数とベースリセット
+   2. site.css   : 各セクションの見た目（.hero / .section / .card など）
+   ------------------------------------------------------------------ */
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@import "./styles/tokens.css";
+@import "./styles/site.css";

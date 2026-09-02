@@ -34,6 +34,22 @@ export function SiteFooter() {
                 <span className="btn__arrow">→</span>
               </a>
             ) : null}
+            {footer.socialLinks && footer.socialLinks.length > 0 ? (
+              <div className="footer__social">
+                {footer.socialLinks.map((link) => (
+                  <a
+                    key={link.href}
+                    href={link.href}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="footer__social-link"
+                    aria-label={link.label}
+                  >
+                    {link.label}
+                  </a>
+                ))}
+              </div>
+            ) : null}
           </div>
           <div aria-hidden="true" />
           <div>
